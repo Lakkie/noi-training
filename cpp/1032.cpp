@@ -1,12 +1,14 @@
 #include <iostream>
 using namespace std;
-int main(){
-	int h,r;
+int main()
+{
+	double h,r,n,t,p=3.1415926;
 	cin>>h>>r;
-	//圆柱体体积公式: Π* r * r * h 
-	double v=3.1*r*r*h;
-	//1升=1000立方厘米 
-	int t=20000/v;
-	cout<<t+1<<endl;
-    return 0;
+	n=(r+r)*p*h;
+	t=2/n;
+	if(2%n!=0){
+		t++;
+	}
+	cout<<t<<endl;
+	return 0;
 }
