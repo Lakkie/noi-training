@@ -1,3 +1,7 @@
-/.ipynb_checkpoints
-/noi_venv
+# Python Virtual Environment‌
+*venv/
+noi_venv/
+
+# Jupyter Lab
+.ipynb_checkpoints/
 
