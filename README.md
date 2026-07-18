@@ -14,12 +14,21 @@ pip list
 jupyter lab  
 
 # 脚本示例
+cd C:\study\noi-training\
 
-# 安装Python虚拟环境
+## 安装Python虚拟环境
 python -m venv noi_venv
-# 激活Python虚拟环境
+## 激活Python虚拟环境
 noi_venv\Scripts\activate
-# 安装JupyterLab工具
+## 安装JupyterLab工具
 pip install jupyterlab 
-# 启动JupyterLab工具
+## 启动JupyterLab工具
 jupyter lab
+
+
+## 安装C++虚拟环境
+conda create --prefix C:\study\noi-training\cpp_venv
+## 激活C++虚拟环境
+conda activate C:\study\noi-training\cpp_venv
+
+
