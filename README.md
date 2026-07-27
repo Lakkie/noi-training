@@ -7,7 +7,7 @@ python -m venv [virtual_environment_name]
 [virtual_environment_name]\Scripts\activate  
 
 ## install and check JupyterLab
-pip install jupyterlab  
+pip install jupyterlab jupytext xppy  
 pip list
 
 ## use JupyterLab
@@ -20,8 +20,8 @@ cd C:\study\noi-training\
 python -m venv noi_venv
 ## 激活Python虚拟环境
 noi_venv\Scripts\activate
-## 安装JupyterLab工具
-pip install jupyterlab 
+## 安装JupyterLab相关工具
+pip install jupyterlab jupytext xppy  
 ## 启动JupyterLab工具
 jupyter lab
 
@@ -32,3 +32,5 @@ conda create --prefix C:\study\noi-training\cpp_venv
 conda activate C:\study\noi-training\cpp_venv
 
 
+
+pip install xeus-cling
