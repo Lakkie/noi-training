@@ -5,6 +5,11 @@ int main(){
 	int n;
 	cin>>n;
 
+    # 计算
+    for(int i=0;i<n;i++){
+        
+    }
+    
     # 输出
 	cout<<n<<endl;
     return 0;
