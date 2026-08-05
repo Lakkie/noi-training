@@ -2,8 +2,8 @@
 using namespace std;
 int main(){
     // 输入
-	int n,s=0;
-	cin>>n;
+    int n,s=0;
+    cin>>n;
 
     // 计算
     for(int i=0;i<n;i++){
@@ -11,7 +11,7 @@ int main(){
     }
 
     // 输出
-	cout<<s<<endl;
+    cout<<s<<endl;
 
     return 0;
 }
